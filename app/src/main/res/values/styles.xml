@@ -1,10 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Voice Assistant</string>
-    <string name="accessibility_description">
-        Allows Voice Assistant to read your screen,
-        tap elements, and execute voice commands.
-    </string>
-    <string name="channel_name">Voice Assistant</string>
-    <string name="channel_desc">Voice Assistant running in background</string>
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">#1a1a2e</item>
+        <item name="colorPrimaryDark">#000000</item>
+        <item name="colorAccent">#7b2fff</item>
+    </style>
+
+    <style name="AppTheme.Transparent" parent="AppTheme">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
 </resources>
