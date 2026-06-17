@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="32dp"
+    android:background="#1a1a2e">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Voice Assistant"
+        android:textColor="#ffffff"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="12dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Grant all permissions below\nthen the app runs in background."
+        android:textColor="#8b949e"
+        android:textSize="14sp"
+        android:gravity="center"
+        android:layout_marginBottom="40dp" />
+
+    <Button
+        android:id="@+id/btnOverlay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="1. Grant Overlay Permission"
+        android:backgroundTint="#0f3460"
+        android:textColor="#ffffff"
+        android:layout_marginBottom="16dp" />
+
+    <Button
+        android:id="@+id/btnAccessibility"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="2. Grant Accessibility Permission"
+        android:backgroundTint="#0f3460"
+        android:textColor="#ffffff"
+        android:layout_marginBottom="16dp" />
+
+    <Button
+        android:id="@+id/btnNotification"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="3. Grant Notification Permission"
+        android:backgroundTint="#0f3460"
+        android:textColor="#ffffff"
+        android:layout_marginBottom="16dp" />
+
+    <Button
+        android:id="@+id/btnMic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="4. Grant Microphone Permission"
+        android:backgroundTint="#0f3460"
+        android:textColor="#ffffff"
+        android:layout_marginBottom="40dp" />
+
+    <Button
+        android:id="@+id/btnStart"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Start Assistant"
+        android:backgroundTint="#7b2fff"
+        android:textColor="#ffffff" />
+
+</LinearLayout>
